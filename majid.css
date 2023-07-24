@@ -1,0 +1,16 @@
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading h2 {
+  width: 400px;
+  background-color: orange;
+  text-align: center;
+}
+.heading.active {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: orange;
+}
